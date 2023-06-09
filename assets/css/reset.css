@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--background--color);
+}
+
+:root {
+  --white--text: #ffffff;
+  --gray--color: #808080;
+  --background--color: #000000;
+  --font--family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
